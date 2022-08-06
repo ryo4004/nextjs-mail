@@ -5,7 +5,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier --loglevel warn --write \"**/*.{js,css,md}\"",
+    "prettier": "prettier --loglevel warn --write \"**/*.{js,css,md}\"",
     "posttest": "npm run format"
   },
   "dependencies": {
