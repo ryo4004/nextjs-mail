@@ -1,5 +1,3 @@
-import { useContact } from 'hooks/useMail';
-
 export default function Mail() {
   const { setName, setMessage, send } = useMail();
 
