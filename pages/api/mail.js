@@ -11,8 +11,8 @@ export default async (req, res) => {
 		},
 	});
 	await transporter.sendMail({
-		from: process.env.MAIL_FROM,
-		to: process.env.MAIL_TO,
+		from: "contact@winds-n.com",
+		to: "g.vivo.es.dur@gmail.com",
 		subject: "お問い合わせ",
 		text: req.body,
 	});
